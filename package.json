@@ -1,0 +1,12 @@
+{
+  "name": "b2b_mdt",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "node tests/calc.test.js && node tests/integration_save.test.js"
+  },
+  "dependencies": {
+    "jspdf": "^2.5.1",
+    "mysql2": "^3.11.3"
+  }
+}

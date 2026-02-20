@@ -1,0 +1,101 @@
+{
+  "id": "c1db6fce-188d-4fd4-9b3c-8398ea77f52f",
+  "title": "Braquage supérette Route 68",
+  "status": "under_review",
+  "primary_identifier": "license:abcd1234",
+  "employees": [
+    {
+      "identifier": "license:off01",
+      "name": "Lt. Dupont",
+      "grade": "sergeant",
+      "badge": "B201"
+    }
+  ],
+  "citizens": [
+    {
+      "identifier": "license:abcd1234",
+      "name": "Jean Martin",
+      "type": "joueur"
+    }
+  ],
+  "charges": [
+    {
+      "code": "VOL_QUALIFIE_001",
+      "label": "Vol qualifié",
+      "base_fine": 2200,
+      "min_fine": 1500,
+      "max_fine": 6000,
+      "base_months": 14,
+      "months_per_prior": 2,
+      "recidive_multiplier": 1.5
+    },
+    {
+      "code": "USAGE_ARME_002",
+      "label": "Usage d'arme",
+      "base_fine": 2500,
+      "min_fine": 1800,
+      "max_fine": 7000,
+      "base_months": 18,
+      "months_per_prior": 3,
+      "recidive_multiplier": 1.4
+    }
+  ],
+  "numPriors": 2,
+  "recidiveCodes": [
+    "VOL_QUALIFIE_001"
+  ],
+  "totals": {
+    "total_fine": 9150,
+    "total_months": 57,
+    "breakdown": [
+      {
+        "type": "charge",
+        "code": "VOL_QUALIFIE_001"
+      },
+      {
+        "type": "charge",
+        "code": "USAGE_ARME_002"
+      },
+      {
+        "type": "combo",
+        "reason": "Vol qualifié avec arme"
+      }
+    ]
+  },
+  "vehicles": [
+    {
+      "plate": "AB-123-CD",
+      "vin": "VIN123456789",
+      "owner": "license:abcd1234"
+    }
+  ],
+  "weapons": [
+    {
+      "serial": "SN-556677",
+      "brand": "Glock",
+      "model": "19",
+      "category": "Poing"
+    }
+  ],
+  "notes_public": "Suspect neutralisé sans blessés civils.",
+  "notes_private": "Présence possible d'un complice non identifié.",
+  "evidence": [
+    {
+      "id": "ev-01",
+      "filename": "camera1.png",
+      "path": "data/players/license:abcd1234/evidence/camera1.png"
+    }
+  ],
+  "audit": [
+    {
+      "at": "2026-01-11T19:11:02Z",
+      "by": "license:off01",
+      "action": "create"
+    },
+    {
+      "at": "2026-01-11T19:20:13Z",
+      "by": "license:off01",
+      "action": "update_charges"
+    }
+  ]
+}

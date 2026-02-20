@@ -1,0 +1,5 @@
+{
+  "resource": "b2b_mdt",
+  "notes": "Mirror settings can be generated from config.lua",
+  "minimum_js_lines": 3000
+}
