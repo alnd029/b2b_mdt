@@ -1,0 +1,18 @@
+{
+  "identifier": "license:abcd1234",
+  "reports": [
+    "c1db6fce-188d-4fd4-9b3c-8398ea77f52f"
+  ],
+  "vehicles": [
+    "AB-123-CD"
+  ],
+  "weapons": [
+    "SN-556677"
+  ],
+  "notes": [
+    {
+      "author": "license:off01",
+      "text": "Sujet coopératif"
+    }
+  ]
+}
